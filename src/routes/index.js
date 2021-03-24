@@ -5,7 +5,7 @@ const router = express.Router();
 router.get('/', function (req, res, next) {
     res.status(200).send({
         title: "Node Express API com Docker",
-        version: "1.0.0"
+        version: "1.0.1"
     });
 });
 
